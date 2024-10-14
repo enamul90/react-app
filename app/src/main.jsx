@@ -1,12 +1,14 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 
-import Basic_Css from './assets/Components/css/basic_css_add'
+import AddCSS from './components/css/basic_css_add.jsx'
+
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Basic_Css />
+  <AddCSS />
+
+
   </StrictMode>,
 )
-
