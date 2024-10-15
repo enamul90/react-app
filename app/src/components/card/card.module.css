@@ -1,0 +1,48 @@
+
+.cardBody{
+
+    background-color: #fff;
+    max-width: 600px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+}
+
+.imgBox{
+    background-color: #007bff;
+    height: auto;
+    width: 600px;
+
+    & img{
+        width: 100%;
+        height:100%;
+        object-fit: cover;
+    }
+}
+
+
+
+.cardText{
+    padding: 14px;
+    & h1{
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 8px;
+    }
+    & p{
+        font-size: 16px;
+        line-height: 1.3;
+        color: rgb(41, 41, 41);
+        margin-bottom: 14px;
+    }
+    & button{
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
+
