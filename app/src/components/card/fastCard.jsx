@@ -1,4 +1,4 @@
-import "./fastCard.module.css";
+import style from "./fastCard.module.css";
 
 function fastCard() {
 
@@ -8,11 +8,11 @@ function fastCard() {
 
   return (
     <>
-      <div className="cardBody">
-        <div className="imgBox">
+      <div className={style.cardBody}>
+        <div className={style.imgBox}>
           <img src={img} alt="Product" />
         </div>
-        <div className="cardText">
+        <div className={style.cardText}>
           <h1>{tittle}</h1>
           <p >{paragraph}</p>
           <button>my button</button>
