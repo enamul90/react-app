@@ -1,12 +1,17 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import Simple_Props_A from "./components/props/Simple_Props_A";
+
+import Internal_Arrow_Function from "./components/Click_Event/Internal_Arrow_Function";
+
 
 
 export default function App() {
+
+
   return (
     <div>
-        <Simple_Props_A />
+
+        <Internal_Arrow_Function />
     </div>
   )
 }
