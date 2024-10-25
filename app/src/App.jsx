@@ -1,7 +1,10 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 
 
-import Internal_Arrow_Function from "./components/Click_Event/Internal_Arrow_Function";
+
+import Registration_From from "./components/form/Registration_From";
+
+
 
 
 
@@ -11,7 +14,8 @@ export default function App() {
   return (
     <div>
 
-        <Internal_Arrow_Function />
+        <Registration_From />
+        
     </div>
   )
 }
