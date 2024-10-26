@@ -1,10 +1,14 @@
 
 import { useState } from "react";
 
+
+
 const BasicUseState = () => {
 
     const [data, SetData]=useState([])
+    const [id, setId]=useState(1)
 
+    console.log(data)
 
     const getFromData = (Event)=>{
         Event.preventDefault();
@@ -12,7 +16,8 @@ const BasicUseState = () => {
         let department = Event.target.department.value;
         let detail = Event.target.detail.value;
 
-        let newData = [...data, {user, department, detail}];
+        let newData = [...data, {user, department, detail, id:id}];
+        setId(id+1)
         SetData(newData);
         Event.target.reset();
 
@@ -36,7 +41,7 @@ const BasicUseState = () => {
 
             <div className="mt-5">
                 {
-                    data.map((item, index)=>(
+                    data.sort((a,b)=>b.id-a.id).map((item, index)=>(
 
                         <div className="w-50 m-auto bg-light p-3 mb-2 d-flex justify-content-between" key={index}>
                             <div className="me-4">
