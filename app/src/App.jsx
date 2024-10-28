@@ -1,7 +1,9 @@
 
 
 
-import FormUseState from "./components/useState/FormUseState";
+
+import CallApiAsyncUseEffect  from './components/useEffect/CallApiAsyncUseEffect'
+
 
 
 
@@ -12,8 +14,8 @@ export default function App() {
 
   return (
     <div>
-      
-      <FormUseState />
+
+      <CallApiAsyncUseEffect />
 
     </div>
   )
