@@ -25,3 +25,12 @@ h1,h2,h3,h4,h5{
     font-family: "Cinzel", serif;
     font-optical-sizing: auto;
 }
+
+
+.active-button{
+    color:rgb(23, 26, 235);
+}
+
+.deactivate-button{
+    color: #171616;
+}

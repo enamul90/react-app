@@ -1,11 +1,4 @@
-
-
-
-
-import CallApiAsyncUseEffect  from './components/useEffect/CallApiAsyncUseEffect'
-
-
-
+import NaveRouter from "./routes/NaveRouter";
 
 
 
@@ -15,7 +8,7 @@ export default function App() {
   return (
     <div>
 
-      <CallApiAsyncUseEffect />
+      <NaveRouter />
 
     </div>
   )
