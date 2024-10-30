@@ -1,9 +1,9 @@
-
+import Nav from "../Layout/Nav"
 
 const map = () => {
     return (
         <div>
-            <h1>Map</h1>
+            <Nav />
         </div>
     );
 };

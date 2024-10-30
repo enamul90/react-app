@@ -1,8 +1,9 @@
+import Navbar from "../Layout/Nav";
 
 const form = () => {
     return (
         <div>
-            <h1>form</h1>
+            <Navbar />
         </div>
     );
 };
